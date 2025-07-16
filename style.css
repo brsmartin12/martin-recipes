@@ -28,3 +28,21 @@ a {
     display: block;
     margin-bottom: 3px;
 }
+
+.recipe-title-banner {
+    background-color: beige;
+    margin: 0 auto;
+    padding-bottom: 250px;
+}
+
+.recipe-title {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 48px;
+}
+
+img {
+    border: 10px solid;
+    border-color: rgb(199, 98, 58);
+    /*A negative top margin that puts it half way up on the title box would be cool.*/
+}
