@@ -33,6 +33,7 @@ a {
     background-color: beige;
     margin: 0 auto;
     padding-bottom: 250px;
+    padding-top: 15px;
 }
 
 .recipe-title {
@@ -45,4 +46,14 @@ img {
     border: 10px solid;
     border-color: rgb(199, 98, 58);
     /*A negative top margin that puts it half way up on the title box would be cool.*/
+}
+
+.home-button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(199, 98, 58);
+    display: inline;
 }
