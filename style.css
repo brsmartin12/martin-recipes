@@ -26,9 +26,17 @@ body {
     margin-bottom: 10px;
 }
 
-a {
-    display: block;
+.main-link-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 8px 0px;
+}
+
+.main-link-list-item {
     margin-bottom: 10px;
+}
+
+a {
     color: rgb(199, 98, 58);
 }
 
