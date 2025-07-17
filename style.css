@@ -37,6 +37,8 @@ a {
     margin: 0 auto;
     padding-bottom: 250px;
     padding-top: 15px;
+    border-bottom: 15px solid;
+    border-color: rgb(199, 98, 58);
 }
 
 .recipe-title {
@@ -48,7 +50,14 @@ a {
 img {
     border: 10px solid;
     border-color: rgb(199, 98, 58);
-    /*A negative top margin that puts it half way up on the title box would be cool.*/
+    display: block;
+    margin: 0 auto;
+}
+
+img.meatloaf-img {
+    height: 400px;
+    width: auto;
+    margin-top: -205px;
 }
 
 .home-button {
