@@ -60,9 +60,6 @@ img {
     border-color: rgb(199, 98, 58);
     display: block;
     margin: 0 auto;
-}
-
-img.meatloaf-img {
     height: 400px;
     width: auto;
     margin-top: -205px;
