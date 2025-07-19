@@ -1,6 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgba(255, 255, 255, 0.89);
+    font-size: 18px;
 }
 
 .homepage-title {
@@ -9,9 +10,11 @@ body {
     font-size: 80px;
     padding: 30px;
     margin: 0px auto;
+    border-bottom: 15px solid;
+    border-color: rgb(199, 98, 58);
 }
 
-.categorical-container {
+.categorical-container, .content-box {
     margin: 15px 60px;
     padding: 15px;
     border: 2px solid;
@@ -24,7 +27,57 @@ body {
     margin-bottom: 10px;
 }
 
+.main-link-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 8px 0px;
+}
+
+.main-link-list-item {
+    margin-bottom: 10px;
+}
+
 a {
+    color: rgb(199, 98, 58);
+}
+
+.recipe-title-banner {
+    background-color: beige;
+    margin: 0 auto;
+    padding-bottom: 250px;
+    padding-top: 15px;
+    border-bottom: 15px solid;
+    border-color: rgb(199, 98, 58);
+}
+
+.recipe-title {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 48px;
+}
+
+img {
+    border: 10px solid;
+    border-color: rgb(199, 98, 58);
     display: block;
-    margin-bottom: 3px;
+    margin: 0 auto;
+    height: 400px;
+    width: auto;
+    margin-top: -205px;
+}
+
+.home-button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(199, 98, 58);
+    display: inline;
+}
+
+.content-subtitle{
+    text-decoration: underline;
+    text-decoration-color: rgb(199, 98, 58);
+    margin-bottom: 10px;
 }
